@@ -18,7 +18,7 @@
 <div class="curve2"></div> 
 <div class="curve3"></div> 
 </div> <h1>HELLO WORLD</h1>
-<h2>You did it!</h2>
+<h2>From: <%=java.net.InetAddress.getLocalHost().getHostName()%></h2>
 <h3 class="blue">Your Java application is now running in the Cloud!</h3> 
 <a id="header-link" href="http://jelastic.com/" target="_blank" class="powered-by"></a>
 <noscript> <h1 class="visible">HELLO WORLD</h1> 
@@ -55,5 +55,5 @@
 </body> 
 </html> 
 <!--
-Copyright by Jelastic http://jelastic.com, 2011-2012
+Copyright by Jelastic http://jelastic.com, 2016
 -->
